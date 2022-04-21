@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    tools:context=".Fragments.MealsDonation.MealDetailsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_220sdp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/image_placeholder"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/imageRecycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--            <ImageView-->
+<!--                android:id="@+id/imageView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="@dimen/_250sdp"-->
+<!--                android:scaleType="centerCrop"/>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/titleTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="Covid 19 Awareness Campaign"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@color/colorPrimary"
+                    android:fontFamily="@font/poppins_medium" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="Objective"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_regular" />
+
+                <TextView
+                    android:id="@+id/objectiveTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="We listen to the people we support. And we help them help themselves."
+                    android:textAlignment="textStart"
+                    android:textSize="@dimen/_10sdp"
+                    android:fontFamily="@font/poppins_light" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="Description"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/poppins_regular" />
+
+                <TextView
+                    android:id="@+id/descriptionTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="We listen to the people we support. And we help them help themselves.We listen to the people we support. And we help them help themselves.We listen to the people we support. And we help them help themselves.We listen to the people we support. And we help them help themselves."
+                    android:textAlignment="textStart"
+                    android:textSize="@dimen/_10sdp"
+                    android:fontFamily="@font/poppins_light" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/donationBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="?attr/actionBarSize"
+                        android:layout_weight="1"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:letterSpacing="0"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="@dimen/_12sdp"
+                        android:text="@string/donation"
+                        android:textAllCaps="false"
+                        android:backgroundTint="@color/colorPrimary" />
+
+                    <Button
+                        android:id="@+id/shareBtn"
+                        android:layout_width="0dp"
+                        android:layout_height="?attr/actionBarSize"
+                        android:layout_weight="1"
+                        android:layout_margin="@dimen/_3sdp"
+                        android:letterSpacing="0"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="@dimen/_12sdp"
+                        android:text="@string/share"
+                        android:textAllCaps="false"
+                        android:backgroundTint="@color/button_black" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

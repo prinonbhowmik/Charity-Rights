@@ -1,0 +1,83 @@
+<resources>
+
+    <string name="base_url">https://charityright.com.bd/crprojectadmin/</string>
+
+    //ssl information
+    <string name="ssl_sand_store_id">datas5ffd2eab8303d</string>
+    <string name="ssl_sand_store_password">datas5ffd2eab8303d@ssl</string>
+
+    <string name="ssl_store_id">charityrightcombdlive</string>
+    <string name="ssl_store_password">606D78D6CED4369580</string>
+
+    <string name="app_name">Charity Right</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="we_free_npeople_from_nhunger">We free \npeople from \nhunger</string>
+    <string name="your_support_will_provide_nutritious_nfood_to_help_children_and_adults_nbreak_free_from_the_devastating_neffects_of_hunger">Your support will provide nutritious \nfood to help children and adults \nbreak free from the devastating \neffects of hunger.</string>
+    <string name="get_started">Get Started</string>
+    <string name="your_email">Your Email</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forget_password">Forgot Password ?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or">Or</string>
+    <string name="don_t_have_an_account">Don\'t have an account ?</string>
+    <string name="forgot_your_password">Forgot Your Password?</string>
+    <string name="enter_the_email_you_signed_up_with_and_we_will_send_you_a_new_password">Enter the email you signed up with and we will send you a new password.</string>
+    <string name="email_address">Mobile Number</string>
+    <string name="send">Send</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="full_name">Full Name</string>
+    <string name="your_name">Your Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="_8801">***********</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="home">Home</string>
+    <string name="events">Campaign</string>
+    <string name="school">Project</string>
+    <string name="notice">Notice</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="field_report_login">Field Report Login</string>
+    <string name="report_and_issue">Report and Issue</string>
+    <string name="logout">Logout</string>
+    <string name="we_support">We Support</string>
+    <string name="your_donation_goes_to">Your Donation Goes to</string>
+    <string name="student_testimonial">Student Testimonial</string>
+    <string name="view_all">View All</string>
+    <string name="school_meal">School Meal</string>
+    <string name="donation">Donation</string>
+    <string name="view">View</string>
+    <string name="need_to_help_first">Need to help first ?</string>
+    <string name="all_events_list">All Events List</string>
+    <string name="all_school_list">All School List</string>
+    <string name="notifications">Notifications</string>
+    <string name="search_school_here">Search School Here!</string>
+    <string name="share">Share</string>
+    <string name="next">Next</string>
+    <string name="bdt">BDT</string>
+    <string name="business_name">Business Name</string>
+    <string name="address">Address</string>
+    <string name="continue_text">Continue</string>
+    <string name="personal_information_and_payment_details">Personal Information and Payment Details</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="register_to_speed_up_your_donation_process">Register to Speed Up Your Donation Process</string>
+    <string name="class_list">Class List</string>
+    <string name="student_lists">Student Lists</string>
+    <string name="sign_in_with_phone_number">Sign In With Phone Number</string>
+    <string name="reset_your_password">Reset Your Password</string>
+    <string name="enter_your_otp">Enter Your OTP</string>
+    <string name="submit">Submit</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="projects">Projects</string>
+    <string name="donation_history">Donation History</string>
+
+    <string-array name="dummy">
+
+        <item>Covid 19 Food Package</item>
+        <item>Orphanage and Madrasa Program</item>
+        <item>Ifter With Dinner Program</item>
+
+    </string-array>
+
+</resources>

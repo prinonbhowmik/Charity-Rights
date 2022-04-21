@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.charityright.bd.Fragments.HomeFragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_allSchoolMealFragment"
+            app:destination="@id/allSchoolMealFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_homeFragment_to_allSchoolListFragment"
+            app:destination="@id/allSchoolListFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_homeFragment_to_donationStepOneFragment"
+            app:destination="@id/donationStepOneFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_homeFragment_to_mealDetailsFragment"
+            app:destination="@id/mealDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_homeFragment_to_schoolDetailsFragment"
+            app:destination="@id/schoolDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/noticeFragment"
+        android:name="com.charityright.bd.Fragments.HomeFragments.NoticeFragment"
+        android:label="fragment_notice"
+        tools:layout="@layout/fragment_notice" >
+        <action
+            android:id="@+id/action_noticeFragment_to_mealDetailsFragment"
+            app:destination="@id/mealDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_noticeFragment_to_schoolDetailsFragment"
+            app:destination="@id/schoolDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/allSchoolMealFragment"
+        android:name="com.charityright.bd.Fragments.HomeFragments.AllSchoolMealFragment"
+        android:label="fragment_all_school_meal"
+        tools:layout="@layout/fragment_all_school_meal" >
+        <action
+            android:id="@+id/action_allSchoolMealFragment_to_donationStepOneFragment"
+            app:destination="@id/donationStepOneFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_allSchoolMealFragment_to_mealDetailsFragment"
+            app:destination="@id/mealDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/allSchoolListFragment"
+        android:name="com.charityright.bd.Fragments.HomeFragments.AllSchoolListFragment"
+        android:label="fragment_all_school_list"
+        tools:layout="@layout/fragment_all_school_list" >
+        <action
+            android:id="@+id/action_allSchoolListFragment_to_schoolDetailsFragment"
+            app:destination="@id/schoolDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_allSchoolListFragment_to_donationStepOneFragment"
+            app:destination="@id/donationStepOneFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/donationStepOneFragment"
+        android:name="com.charityright.bd.Fragments.MealsDonation.DonationStepOneFragment"
+        android:label="fragment_donation_step_one"
+        tools:layout="@layout/fragment_donation_step_one" >
+        <action
+            android:id="@+id/action_donationStepOneFragment_to_donationStepTwoFragment"
+            app:destination="@id/donationStepTwoFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/mealDetailsFragment"
+        android:name="com.charityright.bd.Fragments.MealsDonation.MealDetailsFragment"
+        android:label="fragment_meal_details"
+        tools:layout="@layout/fragment_meal_details" >
+        <action
+            android:id="@+id/action_mealDetailsFragment_to_donationStepOneFragment"
+            app:destination="@id/donationStepOneFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/donationStepTwoFragment"
+        android:name="com.charityright.bd.Fragments.MealsDonation.DonationStepTwoFragment"
+        android:label="fragment_donation_step_two"
+        tools:layout="@layout/fragment_donation_step_two" >
+        <action
+            android:id="@+id/action_donationStepTwoFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/schoolDetailsFragment"
+        android:name="com.charityright.bd.Fragments.SchoolsDonation.SchoolDetailsFragment"
+        android:label="fragment_school"
+        tools:layout="@layout/fragment_school_details" >
+        <action
+            android:id="@+id/action_schoolDetailsFragment_to_classDetailsFragment"
+            app:destination="@id/classDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/classDetailsFragment"
+        android:name="com.charityright.bd.Fragments.SchoolsDonation.ClassDetailsFragment"
+        android:label="fragment_class_details"
+        tools:layout="@layout/fragment_class_details" >
+        <action
+            android:id="@+id/action_classDetailsFragment_to_studentDetailsFragment"
+            app:destination="@id/studentDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_classDetailsFragment_to_donationStepOneFragment"
+            app:destination="@id/donationStepOneFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/studentDetailsFragment"
+        android:name="com.charityright.bd.Fragments.SchoolsDonation.StudentDetailsFragment"
+        android:label="fragment_student_details"
+        tools:layout="@layout/fragment_student_details" >
+        <action
+            android:id="@+id/action_studentDetailsFragment_to_donationStepOneFragment"
+            app:destination="@id/donationStepOneFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <dialog
+        android:id="@+id/profileFragment"
+        android:name="com.charityright.bd.Fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/contactUsFragment"
+        android:name="com.charityright.bd.Fragments.ContactUsFragment"
+        android:label="fragment_contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/donationHistoryFragment"
+        android:name="com.charityright.bd.Fragments.HomeFragments.DonationHistoryFragment"
+        android:label="fragment_donation_history"
+        tools:layout="@layout/fragment_donation_history" />
+</navigation>

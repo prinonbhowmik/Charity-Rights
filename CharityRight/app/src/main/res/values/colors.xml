@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="main_background">#F5F4F9</color>
+    <color name="spinner_background">#E0E0E0</color>
+    <color name="red">#DB1D00</color>
+    <color name="blue">#47629B</color>
+    <color name="button_black">#383838</color>
+    <color name="auth_black">#414141</color>
+    <color name="text_black">#505050</color>
+    <color name="card_yellow">#FEC402</color>
+    <color name="card_green">#199E3C</color>
+    <color name="card_blue">#4CA4FD</color>
+    <color name="card_blue_dark">#105684</color>
+    <color name="tab_dark">#4B4B4B</color>
+    <color name="divider">#707070</color>
+    <color name="edit_text">#C4C4C4</color>
+    <color name="transparent_black">#94333232</color>
+
+    <color name="colorPrimary">#E42281</color>
+    <color name="colorPrimaryVariant">#CE3A80</color>
+    <color name="colorCard">#9C1857</color>
+    <color name="colorOnPrimary">#F5F4F9</color>
+
+</resources>

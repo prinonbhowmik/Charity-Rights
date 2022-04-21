@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.MealsDonation.DonationStepTwoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/donationStep2TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/_12sdp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:text="@string/personal_information_and_payment_details"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/_15sdp" />
+
+        <LinearLayout
+            android:id="@+id/addressLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/enter_full_name"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/poppins_medium"/>
+            <EditText
+                android:id="@+id/fullNameET"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/edit_text_background"
+                android:textColor="@color/black"
+                android:hint="@string/enter_full_name"
+                android:inputType="text"
+                android:imeOptions="actionDone"
+                android:textSize="@dimen/_11sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:paddingStart="@dimen/_15sdp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:text="@string/your_email"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/poppins_medium"/>
+            <EditText
+                android:id="@+id/emailET"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@drawable/edit_text_background"
+                android:hint="@string/your_email"
+                android:inputType="text"
+                android:imeOptions="actionDone"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:paddingStart="@dimen/_15sdp" />
+
+            <RadioButton
+                android:id="@+id/registerDonationBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorPrimary"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/register_to_speed_up_your_donation_process"
+                android:textSize="@dimen/_11sdp"/>
+
+            <LinearLayout
+                android:id="@+id/passLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/password"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@font/poppins_medium"/>
+                <EditText
+                    android:id="@+id/donationPassET"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/edit_text_background"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:imeOptions="actionDone"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="@dimen/_11sdp"
+                    android:paddingStart="@dimen/_15sdp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="@string/confirm_password"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@font/poppins_medium"/>
+                <EditText
+                    android:id="@+id/donationConfPassET"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/edit_text_background"
+                    android:hint="@string/confirm_password"
+                    android:inputType="textPassword"
+                    android:imeOptions="actionDone"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="@dimen/_11sdp"
+                    android:paddingStart="@dimen/_15sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="You Are Donating Anonymously"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/poppins_medium"/>
+
+        <Button
+            android:id="@+id/continueBtn"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:letterSpacing="0"
+            android:fontFamily="@font/poppins_regular"
+            android:text="@string/continue_text"
+            android:textSize="@dimen/_12sdp"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</ScrollView>

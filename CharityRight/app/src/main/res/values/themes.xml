@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CharityRight" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#E42281</item>
+        <item name="colorPrimaryVariant">#CE3A80</item>
+        <item name="colorOnPrimary">#F5F4F9</item>
+        <item name="colorAccent">@color/text_black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:dropDownListViewStyle">@style/SpinnerStyle</item>
+
+        <!-- Forcefully Disable Dark Mode. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+
+    </style>
+
+    <style name="SpinnerStyle" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:divider">@color/spinner_background</item>
+        <item name="android:dividerHeight">0.5dp</item>
+        <item name="backgroundTint">@color/black</item>
+    </style>
+
+    <style name="CustomTabText" parent="Widget.MaterialComponents.TabLayout">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+
+</resources>

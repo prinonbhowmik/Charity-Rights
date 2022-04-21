@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.HomeFragments.HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:gravity="center"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/donorNameTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                tools:text="Hi, Emon Hossain Munna"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_medium" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:text="Welcome To Charity Right"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/poppins_medium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/need_to_help_first"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/text_black"
+                android:fontFamily="@font/poppins_medium" />
+
+            <TextView
+                android:id="@+id/viewEvents"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/view_all"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/poppins_medium" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/helpRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            android:scrollbarThumbVertical="@android:color/darker_gray"
+            android:scrollbarSize="5dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/projects"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/text_black"
+                android:fontFamily="@font/poppins_medium" />
+
+            <TextView
+                android:id="@+id/viewSchools"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/view_all"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/poppins_medium" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/schoolMealRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal"
+            android:scrollbarThumbVertical="@android:color/darker_gray"
+            android:scrollbarSize="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="@string/your_donation_goes_to"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/text_black"
+            android:fontFamily="@font/poppins_medium" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="vertical">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                
+                <LinearLayout
+                    android:visibility="invisible"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_90sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:background="@drawable/card_background"
+                    android:backgroundTint="@color/black">
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_90sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@drawable/card_top_right_background"
+                    android:backgroundTint="@color/card_yellow">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="55"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Free Schools"
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="1375 Children"
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_90sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/card_bottom_left_background"
+                    android:backgroundTint="@color/card_green">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="540"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Orphans"
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_90sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/card_background"
+                    android:backgroundTint="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="50"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Persons With"
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Disabilities"
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_90sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/card_background"
+                    android:backgroundTint="@color/card_blue">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="50"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Extremely Poverty"
+                        android:textSize="@dimen/_9sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Stricken Families"
+                        android:textSize="@dimen/_9sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_90sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:background="@drawable/card_bottom_left_background"
+                    android:backgroundTint="@color/card_blue_dark">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="500"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/poppins_bold"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Free Rohingya Refugee Students"
+                        android:textSize="@dimen/_10sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+            
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:backgroundTint="@color/white"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/we_support"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="@color/colorPrimary" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/unicef_logo" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/homeViewPager"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="@dimen/_80sdp"
+            android:paddingEnd="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_30sdp"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

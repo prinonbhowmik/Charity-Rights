@@ -1,0 +1,13 @@
+//dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+//    repositories {
+//        google()
+//        mavenCentral()
+//        jcenter() // Warning: this repository is going to shut down soon
+//        flatDir {
+//            dirs 'libs'
+//        }
+//    }
+//}
+rootProject.name = "Charity Right"
+include ':app'

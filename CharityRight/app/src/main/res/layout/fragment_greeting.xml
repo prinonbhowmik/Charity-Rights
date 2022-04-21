@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragments.SplashFragments.GreetingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/greeting_banner_1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimaryVariant"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/we_free_npeople_from_nhunger"
+            android:gravity="center"
+            android:textColor="@color/colorOnPrimary"
+            android:textSize="@dimen/_18sdp"
+            android:fontFamily="@font/poppins_bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="@string/your_support_will_provide_nutritious_nfood_to_help_children_and_adults_nbreak_free_from_the_devastating_neffects_of_hunger"
+            android:gravity="center"
+            android:textColor="@color/colorOnPrimary"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/poppins_bold" />
+
+        <TextView
+            android:id="@+id/getStartedBtn"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:text="@string/get_started"
+            android:textSize="@dimen/_12sdp"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:textColor="@color/text_black"
+            android:background="@drawable/rectangle_background" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/allSchoolMealFragment"
+        android:icon="@drawable/ic_events"
+        android:title="@string/events" />
+
+    <item
+        android:title="Donate" />
+
+    <item
+        android:id="@+id/allSchoolListFragment"
+        android:icon="@drawable/ic_school"
+        android:title="@string/school" />
+    <item
+        android:id="@+id/noticeFragment"
+        android:icon="@drawable/ic_notification"
+        android:title="@string/notice" />
+
+</menu>

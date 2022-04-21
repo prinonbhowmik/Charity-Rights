@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    tools:context=".Fragments.MealsDonation.DonationStepOneFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/donationStep1TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/_15sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_background"
+                android:backgroundTint="@color/white">
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_marginStart="@dimen/_3sdp"
+                    android:layout_marginEnd="@dimen/_3sdp"
+                    android:theme="@style/SpinnerStyle" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/oneGift"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorPrimary"
+                    android:text="One-Off Gift"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textSize="@dimen/_11sdp"/>
+
+                <RadioButton
+                    android:id="@+id/foodGift"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/colorPrimary"
+                    android:layout_weight="1"
+                    android:text="Food Pack Gift"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textSize="@dimen/_11sdp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/amountLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="4"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/tenCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/_3sdp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="10 Tk"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="@color/white" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/hundredCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/_3sdp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="100 Tk"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="@color/white" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fiveHundredCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/_3sdp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="500 Tk"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="@color/white" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/thousandCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/_3sdp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="1000 Tk"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="@color/white" />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/threeThousandCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/_3sdp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="3000 Tk"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="@color/white" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/fiveThousandCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/_3sdp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="5000 Tk"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="@color/white" />
+
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/tenThousandCard"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/_3sdp"
+                    app:cardElevation="0dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardBackgroundColor="@color/colorPrimary">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingStart="@dimen/_10sdp"
+                        android:paddingEnd="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:text="10000 Tk"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="@dimen/_10sdp"
+                        android:textColor="@color/white" />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/rectangle_background"
+                android:backgroundTint="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".3"
+                    android:gravity="center"
+                    android:background="@drawable/rectangle_background"
+                    android:backgroundTint="@color/spinner_background"
+                    android:text="@string/bdt"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textSize="@dimen/_11sdp" />
+
+                <EditText
+                    android:id="@+id/amountET"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_weight=".7"
+                    android:background="@android:color/transparent"
+                    android:hint="0.00"
+                    android:maxLength="6"
+                    android:inputType="number"
+                    android:imeOptions="actionDone"
+                    android:textSize="@dimen/_11sdp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:textColor="@color/text_black" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/nextBtn"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="@string/next"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_12sdp" />
+
+            <LinearLayout
+                android:id="@+id/DetailsLayout"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/zakatBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/colorPrimary"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="@dimen/_11sdp"
+                        android:text="Zakat" />
+
+                    <RadioButton
+                        android:id="@+id/donationBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:buttonTint="@color/colorPrimary"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textSize="@dimen/_11sdp"
+                        android:text="Donation" />
+
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/anonymousBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:text="Donate Anonymously"
+                    android:fontFamily="@font/poppins_regular"
+                    android:textSize="@dimen/_11sdp"
+                    android:buttonTint="@color/colorPrimary" />
+
+                <LinearLayout
+                    android:id="@+id/addressLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="@string/your_name"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/poppins_medium"/>
+                    <EditText
+                        android:id="@+id/businessNameET"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="@string/your_name"
+                        android:inputType="text"
+                        android:imeOptions="actionDone"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="@dimen/_11sdp"
+                        android:textColor="@color/black"
+                        android:paddingStart="@dimen/_15sdp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:text="@string/address"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/_12sdp"
+                        android:fontFamily="@font/poppins_medium"/>
+                    <EditText
+                        android:id="@+id/addressET"
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@drawable/edit_text_background"
+                        android:hint="@string/address"
+                        android:inputType="text"
+                        android:imeOptions="actionDone"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/poppins_medium"
+                        android:textSize="@dimen/_11sdp"
+                        android:paddingStart="@dimen/_15sdp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/continueBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:text="@string/continue_text"
+                    android:textSize="@dimen/_12sdp"
+                    android:letterSpacing="0"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/poppins_regular" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
