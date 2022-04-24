@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/white"
+    app:cardElevation="0dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/_64sdp"
+            android:layout_height="@dimen/_64sdp"
+            android:scaleType="centerCrop"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Title Goes Here"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/_12sdp"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/poppins_medium" />
+
+            <TextView
+                android:id="@+id/AuditorTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="John Doe"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:textAlignment="textStart"
+                android:textSize="@dimen/_10sdp"
+                android:textColor="@color/text_black"
+                android:fontFamily="@font/poppins_regular" />
+
+            <TextView
+                android:id="@+id/dateTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Date: 21/2/2021"
+                android:textAlignment="textStart"
+                android:textSize="@dimen/_10sdp"
+                android:textColor="@color/text_black"
+                android:fontFamily="@font/poppins_regular" />
+
+            <TextView
+                android:id="@+id/zoneTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Zone: Dhaka"
+                android:maxLines="3"
+                android:ellipsize="end"
+                android:textAlignment="textStart"
+                android:textSize="@dimen/_10sdp"
+                android:textColor="@color/text_black"
+                android:fontFamily="@font/poppins_regular" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

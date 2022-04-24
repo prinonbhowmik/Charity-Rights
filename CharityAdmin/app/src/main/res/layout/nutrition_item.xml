@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edit_text_background"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingStart="@dimen/_10sdp"
+    android:paddingEnd="@dimen/_10sdp"
+    android:paddingTop="@dimen/_5sdp"
+    android:paddingBottom="@dimen/_5sdp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:text="Food Item"
+        android:gravity="start|center"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/_12sdp"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <TextView
+        android:id="@+id/amountTV"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:text="Total"
+        android:gravity="center"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/_12sdp"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <ImageView
+        android:id="@+id/deleteBtn"
+        android:layout_width="@dimen/_28sdp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_delete" />
+
+</LinearLayout>

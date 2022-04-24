@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment2"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home" />
+    <item
+        android:id="@id/campaignFragment"
+        android:icon="@drawable/ic_events"
+        android:title="@string/add_campaign"/>
+    <item
+        android:id="@+id/schoolFragment"
+        android:icon="@drawable/ic_school"
+        android:title="@string/add_school" />
+    <item
+        android:id="@+id/notificationFragment"
+        android:icon="@drawable/ic_notification"
+        android:title="@string/notifications" />
+    <item
+        android:id="@+id/totalStudentFragment"
+        android:icon="@drawable/ic_student_logo"
+        android:title="@string/update_student" />
+
+</menu>

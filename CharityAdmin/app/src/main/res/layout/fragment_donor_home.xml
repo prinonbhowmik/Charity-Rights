@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorOnPrimary"
+    android:orientation="vertical"
+    tools:context=".auditor.fragments.AuditorHomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="start|center"
+            android:paddingStart="@dimen/_10sdp"
+            android:text="@string/home"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_15sdp" />
+
+        <ImageView
+            android:id="@+id/notificationBtn"
+            android:layout_width="@dimen/_36sdp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:padding="@dimen/_8sdp"
+            android:src="@drawable/ic_notification" />
+
+        <ImageView
+            android:id="@+id/logoutBtn"
+            android:layout_width="@dimen/_36sdp"
+            android:layout_height="match_parent"
+            android:padding="@dimen/_8sdp"
+            android:src="@drawable/ic_logout" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/FieldVisitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:backgroundTint="@color/button_black"
+            android:fontFamily="@font/poppins_regular"
+            android:letterSpacing="0"
+            android:text="@string/field_visit_form"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_13sdp" />
+
+        <Button
+            android:id="@+id/SpecialBtn"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:backgroundTint="@color/button_black"
+            android:fontFamily="@font/poppins_regular"
+            android:letterSpacing="0"
+            android:text="@string/special_circumstance_report"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_13sdp" />
+
+        <Button
+            android:id="@+id/assignBtn"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:backgroundTint="@color/button_black"
+            android:fontFamily="@font/poppins_regular"
+            android:letterSpacing="0"
+            android:text="@string/assign_report"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_13sdp" />
+
+        <Button
+            android:id="@+id/remarkBtn"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:backgroundTint="@color/button_black"
+            android:fontFamily="@font/poppins_regular"
+            android:letterSpacing="0"
+            android:text="@string/beneficiary_remarks_form"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_13sdp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"
+            android:src="@drawable/home_logo" />
+
+    </LinearLayout>
+
+</LinearLayout>

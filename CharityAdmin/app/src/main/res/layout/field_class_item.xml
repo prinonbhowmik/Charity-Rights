@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edit_text_background"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/_2sdp"
+    android:paddingStart="@dimen/_10sdp"
+    android:paddingEnd="@dimen/_10sdp"
+    android:paddingTop="@dimen/_5sdp"
+    android:paddingBottom="@dimen/_5sdp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Class Name"
+                    android:gravity="start|center"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@font/poppins_regular"/>
+
+                <TextView
+                    android:id="@+id/classTitleTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:text="Class Title"
+                    android:gravity="start|center"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Total Student"
+                    android:gravity="start|center"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@font/poppins_regular"/>
+
+                <TextView
+                    android:id="@+id/classTotalStudTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:text="Total Student"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Total Present"
+                    android:gravity="start|center"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@font/poppins_regular"/>
+
+                <TextView
+                    android:id="@+id/classTotalPreTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:text="Total Present"
+                    android:gravity="start|center"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Total Absent"
+                    android:gravity="start|center"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@font/poppins_regular"/>
+
+                <TextView
+                    android:id="@+id/classTotalAbsTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:text="Total Absent"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/_12sdp"
+                    android:fontFamily="@font/poppins_medium"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Average Age"
+                android:gravity="start|center"
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/poppins_regular"/>
+
+            <TextView
+                android:id="@+id/avgAgeTV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:text="Class Title"
+                android:gravity="start|center"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/_12sdp"
+                android:fontFamily="@font/poppins_medium"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/deleteBtn"
+        android:layout_width="@dimen/_28sdp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_delete" />
+
+</LinearLayout>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment2">
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.charityright.charityauthority.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment2_to_auditorReportFragment"
+            app:destination="@id/auditorReportFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_homeFragment2_to_donorListFragment"
+            app:destination="@id/donorListFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_homeFragment2_to_totalSchoolListFragment"
+            app:destination="@id/totalSchoolListFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_homeFragment2_to_totalDonationReportFragment"
+            app:destination="@id/totalDonationReportFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_homeFragment2_to_totalCampaignListFragment"
+            app:destination="@id/totalCampaignListFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_homeFragment2_to_totalStudentFragment"
+            app:destination="@id/totalStudentFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/campaignFragment"
+        android:name="com.charityright.charityauthority.fragments.CampaignFragment"
+        android:label="fragment_campaign"
+        tools:layout="@layout/fragment_campaign" >
+        <action
+            android:id="@+id/action_campaignFragment_to_addCampaignDetailsFragment"
+            app:destination="@id/addCampaignDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_campaignFragment_to_addCampaignReviewFragment"
+            app:destination="@id/addCampaignReviewFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.charityright.charityauthority.fragments.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
+    <fragment
+        android:id="@+id/schoolFragment"
+        android:name="com.charityright.charityauthority.fragments.SchoolFragment"
+        android:label="fragment_school"
+        tools:layout="@layout/fragment_school" >
+        <action
+            android:id="@+id/action_schoolFragment_to_addSchoolDetailsFragment"
+            app:destination="@id/addSchoolDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_schoolFragment_to_addSchoolReviewFragment"
+            app:destination="@id/addSchoolReviewFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/auditorReportFragment"
+        android:name="com.charityright.charityauthority.fragments.AuditorReportFragment"
+        android:label="fragment_auditor_report"
+        tools:layout="@layout/fragment_auditor_report" >
+        <action
+            android:id="@+id/action_auditorReportFragment_to_auditorReportDownloadFragment"
+            app:destination="@id/auditorReportDownloadFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_auditorReportFragment_to_auditorListFragment"
+            app:destination="@id/auditorListFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/auditorReportDownloadFragment"
+        android:name="com.charityright.charityauthority.fragments.AuditorReportDownloadFragment"
+        android:label="fragment_auditor_report_download"
+        tools:layout="@layout/fragment_auditor_report_download" />
+    <fragment
+        android:id="@+id/addCampaignDetailsFragment"
+        android:name="com.charityright.charityauthority.fragments.AddCampaign.AddCampaignDetailsFragment"
+        android:label="fragment_add_campaign_details"
+        tools:layout="@layout/fragment_add_campaign_details" >
+        <action
+            android:id="@+id/action_addCampaignDetailsFragment_to_addCampaignReviewFragment"
+            app:destination="@id/addCampaignReviewFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/addCampaignDetailsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/addCampaignReviewFragment"
+        android:name="com.charityright.charityauthority.fragments.AddCampaign.AddCampaignReviewFragment"
+        android:label="fragment_add_campaign_review"
+        tools:layout="@layout/fragment_add_campaign_review" />
+    <fragment
+        android:id="@+id/addSchoolDetailsFragment"
+        android:name="com.charityright.charityauthority.fragments.AddSchool.AddSchoolDetailsFragment"
+        android:label="fragment_add_school_details"
+        tools:layout="@layout/fragment_add_school_details" >
+        <action
+            android:id="@+id/action_addSchoolDetailsFragment_to_addSchoolReviewFragment"
+            app:destination="@id/addSchoolReviewFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/addSchoolDetailsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/addSchoolReviewFragment"
+        android:name="com.charityright.charityauthority.fragments.AddSchool.AddSchoolReviewFragment"
+        android:label="fragment_add_school_review"
+        tools:layout="@layout/fragment_add_school_review" >
+        <action
+            android:id="@+id/action_addSchoolReviewFragment_to_classDetailsFragment"
+            app:destination="@id/classDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/donorListFragment"
+        android:name="com.charityright.charityauthority.fragments.DonorListFragment"
+        android:label="fragment_donor_list"
+        tools:layout="@layout/fragment_donor_list" >
+        <action
+            android:id="@+id/action_donorListFragment_to_donorDetailsFragment"
+            app:destination="@id/donorDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/donorDetailsFragment"
+        android:name="com.charityright.charityauthority.fragments.DonorDetailsFragment"
+        android:label="fragment_donor_details"
+        tools:layout="@layout/fragment_donor_details" />
+    <fragment
+        android:id="@+id/auditorListFragment"
+        android:name="com.charityright.charityauthority.fragments.AuditorListFragment"
+        android:label="fragment_auditor_list"
+        tools:layout="@layout/fragment_auditor_list" >
+        <action
+            android:id="@+id/action_auditorListFragment_to_auditorReportListFragment"
+            app:destination="@id/auditorReportListFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/totalSchoolListFragment"
+        android:name="com.charityright.charityauthority.fragments.TotalSchoolListFragment"
+        android:label="fragment_total_school_list"
+        tools:layout="@layout/fragment_total_school_list" >
+        <action
+            android:id="@+id/action_totalSchoolListFragment_to_addSchoolReviewFragment"
+            app:destination="@id/addSchoolReviewFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/classDetailsFragment"
+        android:name="com.charityright.charityauthority.fragments.ClassDetailsFragment"
+        android:label="fragment_class_details"
+        tools:layout="@layout/fragment_class_details" >
+        <action
+            android:id="@+id/action_classDetailsFragment_to_studentDetailsFragment"
+            app:destination="@id/studentDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/studentDetailsFragment"
+        android:name="com.charityright.charityauthority.fragments.StudentDetailsFragment"
+        android:label="fragment_student_details"
+        tools:layout="@layout/fragment_student_details" >
+        <action
+            android:id="@+id/action_studentDetailsFragment_to_studentDetailsEditFragment"
+            app:destination="@id/studentDetailsEditFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/studentDetailsEditFragment"
+        android:name="com.charityright.charityauthority.fragments.StudentDetailsEditFragment"
+        android:label="fragment_student_details_edit"
+        tools:layout="@layout/fragment_student_details_edit" />
+    <fragment
+        android:id="@+id/totalDonationReportFragment"
+        android:name="com.charityright.charityauthority.fragments.TotalDonationReportFragment"
+        android:label="fragment_total_donation_report"
+        tools:layout="@layout/fragment_total_donation_report" >
+        <action
+            android:id="@+id/action_totalDonationReportFragment_to_donorDetailsFragment"
+            app:destination="@id/donorDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/totalCampaignListFragment"
+        android:name="com.charityright.charityauthority.fragments.TotalCampaignListFragment"
+        android:label="fragment_total_campaign_list_fragment"
+        tools:layout="@layout/fragment_total_campaign_list" >
+        <action
+            android:id="@+id/action_totalCampaignListFragment_to_addCampaignReviewFragment"
+            app:destination="@id/addCampaignReviewFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/totalStudentFragment"
+        android:name="com.charityright.charityauthority.fragments.TotalStudentFragment"
+        android:label="fragment_total_student"
+        tools:layout="@layout/fragment_total_student" >
+        <action
+            android:id="@+id/action_totalStudentFragment_to_studentDetailsFragment"
+            app:destination="@id/studentDetailsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/auditorReportListFragment"
+        android:name="com.charityright.charityauthority.fragments.AuditorReportListFragment"
+        android:label="fragment_auditor_report_list"
+        tools:layout="@layout/fragment_auditor_report_list" >
+        <action
+            android:id="@+id/action_auditorReportListFragment_to_auditorReportDownloadFragment"
+            app:destination="@id/auditorReportDownloadFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+</navigation>

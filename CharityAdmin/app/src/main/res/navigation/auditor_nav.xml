@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/donor_nav"
+    app:startDestination="@id/auditorHomeFragment">
+
+    <fragment
+        android:id="@+id/auditorHomeFragment"
+        android:name="com.charityright.charityauthority.auditor.fragments.AuditorHomeFragment"
+        android:label="DonorHomeFragment" >
+        <action
+            android:id="@+id/action_donorHomeFragment2_to_beneficiaryFragment"
+            app:destination="@id/beneficiaryFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_donorHomeFragment2_to_specialCircumstanceFragment"
+            app:destination="@id/specialCircumstanceFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_donorHomeFragment2_to_assignReportFragment"
+            app:destination="@id/assignReportFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_donorHomeFragment2_to_visitFromFragment"
+            app:destination="@id/visitFromFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_auditorHomeFragment_to_notificationFragment2"
+            app:destination="@id/notificationFragment2"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/beneficiaryFragment"
+        android:name="com.charityright.charityauthority.auditor.fragments.BeneficiaryFragment"
+        android:label="BeneficiaryFragment" >
+        <action
+            android:id="@+id/action_beneficiaryFragment_to_auditorHomeFragment"
+            app:destination="@id/auditorHomeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/auditorHomeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/specialCircumstanceFragment"
+        android:name="com.charityright.charityauthority.auditor.fragments.SpecialCircumstanceFragment"
+        android:label="SpecialCircumstanceFragment" >
+        <action
+            android:id="@+id/action_specialCircumstanceFragment_to_auditorHomeFragment"
+            app:destination="@id/auditorHomeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/auditorHomeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/assignReportFragment"
+        android:name="com.charityright.charityauthority.auditor.fragments.AssignReportFragment"
+        android:label="AssignReportFragment" >
+        <action
+            android:id="@+id/action_assignReportFragment_to_locationConfirmFragment"
+            app:destination="@id/locationConfirmFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/locationConfirmFragment"
+        android:name="com.charityright.charityauthority.auditor.fragments.LocationConfirmFragment"
+        android:label="LocationConfirmFragment" >
+        <action
+            android:id="@+id/action_locationConfirmFragment_to_visitFromFragment"
+            app:destination="@id/visitFromFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/locationConfirmFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/visitFromFragment"
+        android:name="com.charityright.charityauthority.auditor.fragments.VisitFormFragment"
+        android:label="VisitFromFragment" >
+        <action
+            android:id="@+id/action_visitFromFragment_to_auditorHomeFragment"
+            app:destination="@id/auditorHomeFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/auditorHomeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationFragment2"
+        android:name="com.charityright.charityauthority.auditor.fragments.NotificationFragment"
+        android:label="fragment_notification2"
+        tools:layout="@layout/fragment_notification2" >
+        <action
+            android:id="@+id/action_notificationFragment2_to_locationConfirmFragment"
+            app:destination="@id/locationConfirmFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+</navigation>

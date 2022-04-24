@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".fragments.StudentViewPagerActivity.DetailsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="start|center"
+            android:layout_weight="1"
+            android:text="Name : "
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/text_black"
+            android:fontFamily="@font/poppins_medium" />
+
+        <TextView
+            android:id="@+id/nameTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Emon Hossain Munna"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/text_black"
+            android:fontFamily="@font/poppins_light" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Age : "
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/text_black"
+            android:fontFamily="@font/poppins_medium" />
+
+        <TextView
+            android:id="@+id/ageTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="12"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/text_black"
+            android:fontFamily="@font/poppins_light" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Class : "
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/text_black"
+            android:fontFamily="@font/poppins_medium" />
+
+        <TextView
+            android:id="@+id/classTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="2"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/text_black"
+            android:fontFamily="@font/poppins_light" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="start|center"
+            android:layout_weight="1"
+            android:text="School : "
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/text_black"
+            android:fontFamily="@font/poppins_medium" />
+
+        <TextView
+            android:id="@+id/schoolTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Uttara High School &amp; College"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/text_black"
+            android:fontFamily="@font/poppins_light" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="start|center"
+            android:layout_weight="1"
+            android:text="Family : "
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/text_black"
+            android:fontFamily="@font/poppins_medium" />
+
+        <TextView
+            android:id="@+id/familyTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Sheikh"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/text_black"
+            android:fontFamily="@font/poppins_light" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="start|center"
+            android:layout_weight="1"
+            android:text="Address : "
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/text_black"
+            android:fontFamily="@font/poppins_medium" />
+
+        <TextView
+            android:id="@+id/addressTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Khilkhet"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/text_black"
+            android:fontFamily="@font/poppins_light" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Hobby : "
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/text_black"
+            android:fontFamily="@font/poppins_medium" />
+
+        <TextView
+            android:id="@+id/hobbyTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Programming"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/text_black"
+            android:fontFamily="@font/poppins_light" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Food Liking : "
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/text_black"
+            android:fontFamily="@font/poppins_medium" />
+
+        <TextView
+            android:id="@+id/foodTV"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Pizza"
+            android:textSize="@dimen/_10sdp"
+            android:textColor="@color/text_black"
+            android:fontFamily="@font/poppins_light" />
+
+    </LinearLayout>
+
+</LinearLayout>

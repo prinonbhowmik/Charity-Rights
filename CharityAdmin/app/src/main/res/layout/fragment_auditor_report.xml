@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="end"
+    android:background="@color/main_background"
+    tools:context=".fragments.AuditorReportFragment">
+
+    <Button
+        android:id="@+id/viewAllBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:text="@string/view_all_auditor"
+        android:textSize="@dimen/_10sdp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/poppins_regular"
+        android:letterSpacing="0" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/startDateTV"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_weight="1"
+            android:layout_marginEnd="@dimen/_3sdp"
+            android:focusable="false"
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/start_date"
+            android:textSize="@dimen/_10sdp"
+            android:drawableEnd="@drawable/ic_calendar"
+            android:paddingEnd="@dimen/_10sdp"
+            android:fontFamily="@font/poppins_medium"
+            android:paddingStart="@dimen/_5sdp" />
+
+        <EditText
+            android:id="@+id/endDateTV"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:layout_marginEnd="@dimen/_3sdp"
+            android:focusable="false"
+            android:background="@drawable/edit_text_background"
+            android:hint="@string/end_date"
+            android:textSize="@dimen/_10sdp"
+            android:drawableEnd="@drawable/ic_calendar"
+            android:paddingEnd="@dimen/_10sdp"
+            android:fontFamily="@font/poppins_medium"
+            android:paddingStart="@dimen/_5sdp" />
+
+        <Button
+            android:id="@+id/filterBtn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_38sdp"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/_3sdp"
+            android:text="@string/filter"
+            android:textSize="@dimen/_12sdp"
+            android:textAllCaps="false"
+            android:letterSpacing="0"
+            android:fontFamily="@font/poppins_regular" />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:scrollbarThumbVertical="@android:color/darker_gray"
+        android:scrollbarSize="5dp"
+        android:layout_margin="@dimen/_10sdp"/>
+
+    <LinearLayout
+        android:id="@+id/noDataLayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/confirmBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_20sdp"
+            android:layout_gravity="center"
+            app:lottie_rawRes="@raw/no_data"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true" />
+
+    </LinearLayout>
+
+</LinearLayout>

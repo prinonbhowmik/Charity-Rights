@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/drawable-v24/image_card_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/drawable/edit_text_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/drawable/fab_whitebd.xml" value="0.37864583333333335" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/drawable/home_logo.xml" value="0.37864583333333335" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/drawable/ic_calendar.xml" value="0.37864583333333335" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/drawable/ic_charity_logo.xml" value="0.37864583333333335" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/drawable/ic_clock.xml" value="0.37864583333333335" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/drawable/ic_home.xml" value="0.37864583333333335" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/drawable/ic_logout.xml" value="0.37864583333333335" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/drawable/ic_school.xml" value="0.37864583333333335" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/drawable/ic_upload.xml" value="0.37864583333333335" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/drawable/image_card_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/drawable/rectangle_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/drawable/role_layout_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/drawable/tab_background.xml" value="0.25885416666666666" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/drawable/title_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/activity_auditor.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/activity_authentication.xml" value="0.20260416666666667" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/activity_donor.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/activity_main.xml" value="0.2600574712643678" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/auditor_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/auditor_report_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/campaign_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/class_item.xml" value="0.33" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/class_recycler_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/donor_donation_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/donor_list_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/drawer_header.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/field_class_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/field_visit_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/field_visit_report_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/foundation_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_add_campaign.xml" value="0.25" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_add_campaign_details.xml" value="0.33" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_add_campaign_review.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_add_school_details.xml" value="0.33" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_add_school_review.xml" value="0.3484375" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_assign_report.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_auditor_details.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_auditor_list.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_auditor_report.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_auditor_report_download.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_auditor_report_list.xml" value="0.3484375" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_beneficiary.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_bmi.xml" value="0.33" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_bmi_edit.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_campaign.xml" value="0.33" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_class_details.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_confirm_password.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_details.xml" value="0.24270833333333333" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_details_edit.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_donor_details.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_donor_home.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_donor_list.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_field_visit.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_forgot.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_health_status.xml" value="0.22864583333333333" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_health_status_edit.xml" value="0.20260416666666667" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_location_confirm.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_location_picker.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_login.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_notification.xml" value="0.3484375" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_notification2.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_school.xml" value="0.33" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_school_class_details.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_special_circumstance.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_splash.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_student.xml" value="0.20260416666666667" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_student_details.xml" value="0.33" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_student_details_edit.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_total_campaign_list.xml" value="0.33" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_total_campaign_list_fragment.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_total_donation_report.xml" value="0.33" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_total_school_list.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_total_student.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/fragment_visit_from.xml" value="0.23553299492385787" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/health_status_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/image_category_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/notifications_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/nutrition_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/progress_loader.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/school_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/slider_image_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/spinner_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/student_item.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/layout/uploading_progress_loader.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/menu/drawer_menu.xml" value="0.3625" />
+        <entry key="..\:/Practices/CharityAdmin/app/src/main/res/xml/file_paths.xml" value="0.3625" />
+        <entry key="..\:/Prinon/Charity/CharityAdmin/app/src/main/res/layout/food_item_recycler.xml" value="0.36666666666666664" />
+        <entry key="..\:/Prinon/Charity/CharityAdmin/app/src/main/res/layout/fragment_donor_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Prinon/Charity/CharityAdmin/app/src/main/res/layout/fragment_visit_from.xml" value="0.3571790969051243" />
+        <entry key="..\:/Prinon/Charity/CharityAdmin/app/src/main/res/layout/nutrition_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Prinon/Charity/CharityAdmin/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.254" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
