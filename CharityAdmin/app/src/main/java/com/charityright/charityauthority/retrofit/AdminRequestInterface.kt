@@ -220,7 +220,7 @@ interface AdminRequestInterface {
             return Retrofit.Builder()
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(httpClient)
-                .baseUrl(applicationContext.resources.getString(R.string.base_url))
+                .baseUrl("http://192.168.1.225/charity/")
                 .build()
                 .create(AdminRequestInterface::class.java)
         }

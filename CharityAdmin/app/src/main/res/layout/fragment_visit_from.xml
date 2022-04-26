@@ -565,7 +565,7 @@
                 android:id="@+id/step_two_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:visibility="visible"
+                android:visibility="gone"
                 android:orientation="vertical">
 
                 <TextView
